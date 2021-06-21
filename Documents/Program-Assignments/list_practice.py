@@ -18,6 +18,6 @@ print(city_names)
 
 del city_names[7]   #deletes city @ index
 city_names.pop(0)   #removed element according to index
-city_names.remove('Boston')
+city_names.remove('Boston')  #removes specific element that matches ''
 
 print(city_names)
